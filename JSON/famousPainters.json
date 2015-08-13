@@ -1,0 +1,100 @@
+{
+	"famousPainters": [
+		{
+			"name": "Michelangelo",
+            "dateOfBirth": 1489,
+            "placeOfBirth": "Italy",
+            "nationality": "Italian",
+			"style:": "Renaissance",
+            "image": "images/michaelangelo.jpg",
+			"examples: ": [
+              {
+                "name": "David",
+                "url": "michelangelo-david.jpg",
+                "year": "1501-04",
+                "type": "Marble Statue",
+                "location": "Galleria dell'Accademia, Florence",
+                "description": "David is a masterpiece of Renaissance sculpture created between 1501 and 1504, by Michelangelo.\nIt is a 4.34-metre (14.2 ft), 5.17-metre (17.0 ft) with the base marble statue of a standing male nude. The statue represents the Biblical hero David, a favoured subject in the art of Florence. Originally commissioned as one of a series of statues of prophets to be positioned along the roofline of the east end of Florence Cathedral, the statue was placed instead in a public square, outside the Palazzo della Signoria, the seat of civic government in Florence, where it was unveiled on 8 September 1504.\nBecause of the nature of the hero it represented, the statue soon came to symbolize the defense of civil liberties embodied in the Republic of Florence, an independent city-state threatened on all sides by more powerful rival states and by the hegemony of the Medici family. The eyes of David, with a warning glare, were turned towards Rome. The statue was moved to the Galleria dell'Accademia, Florence, in 1873, and later replaced at the original location by a replica."
+              },
+              {
+                "name": "Sistine Chapel",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CAPPELLA_SISTINA_Ceiling.jpg/1280px-CAPPELLA_SISTINA_Ceiling.jpg",
+                "year": "1508-12",
+                "type": "Ceiling Painting",
+                "location": "Sistine Chapel, Vatican City",
+                "description": "The Sistine Chapel ceiling, painted by Michelangelo between 1508 and 1512, is a cornerstone work of High Renaissance art.\nThe ceiling is that of the Sistine Chapel, the large papal chapel built within the Vatican between 1477 and 1480 by Pope Sixtus IV, for whom the chapel is named. It was painted at the commission of Pope Julius II. The chapel is the location for papal conclaves and many important services.\nThe ceiling's various painted elements form part of a larger scheme of decoration within the Chapel, which includes the large fresco The Last Judgment on the sanctuary wall, also by Michelangelo, wall paintings by several leading painters of the late 15th century including Sandro Botticelli, Domenico Ghirlandaio and Pietro Perugino, and a set of large tapestries by Raphael, the whole illustrating much of the doctrine of the Catholic Church."
+              },
+              {
+                "name": "Sistine Chapel"
+              },
+              {
+                "name": "The Last Judgement"
+              }
+            ]
+		},
+        {
+            "name": "Raphael",
+            "style:": "Renaissance",
+            "image": "images/rafael.jpg",
+            "examples: ": [
+              {
+                "name": "School at Athens"
+              },
+              {
+                "name": "Lucretia"
+              },
+              {
+                "name": "Saint George and the Dragon"
+              }
+            ]
+        },
+        {
+            "name": "Vincent van Gogh",
+            "style:": "Post-Impressionist",
+            "image": "images/van-gogh.jpg",
+            "examples: ": [
+              {
+                "name": "Self-portrait"
+              },
+              {
+                "name": "The Starry Night"
+              },
+              {
+                "name": "The Yellow House"
+              }
+            ]
+        },
+        {
+            "name": "Claude Monet",
+            "style:": "Impressionist",
+            "image": "images/claude-monet.jpg",
+            "examples: ": [
+              {
+                "name": "Morning on the Seine"
+              },
+              {
+                "name": "The Woman in the Green Dress"
+              },
+              {
+                "name": "Sunrise"
+              }
+            ]
+        },
+        {
+            "name": "Johannes Vermeer",
+            "style:": "Baroque",
+            "image": "images/vermeer.jpg",
+            "examples: ": [
+              {
+                "name": "The Milkmaid"
+              },
+              {
+                "name": "Girl with a Pearl Earring"
+              },
+              {
+                "name": "The Music Lesson"
+              }
+            ]
+        }
+	]
+}
