@@ -3,36 +3,126 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>TypeScript HTML App</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tsPainters</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="styles/grayscale.css" type="text/css" />
+
+    <!-- Custom Fonts -->
+    <link href="bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="styles/app.css" type="text/css" />
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Tspainters" class="img-responsive" src="images/brush.png">
-                </a>
-                <p class="h1 navbar-text">TsPainters</p>
-            </div>
-
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
             <div class="pull-right label label-danger" id="errorDisplay">
                 <span id="errorMessage"></span>
             </div>
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-paint-brush"></i>  ts<span class="light">Painters</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#painters">Painters</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
     </nav>
 
-    <div class="row" id="paintersList">
-    </div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">ts<small>Painters</small></h1>
+                        <p class="intro-text"><a href="https://courses.edx.org/courses/course-v1:Microsoft+DEV201x+2015_T4/" target="_blank">edX Microsoft DEV201x: Introduction to TypeScript</a><br>Final project</p>
+                        <a href="#painters" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- Painters Section -->
+    <section id="painters" class="container content-section text-center">
+        <div class="painters-section">
+            <div class="row">
+                <h2>Painters</h2>
+                <div class="row" id="paintersList">
+                </div>
 
-    <div class="row" id="painterDetails">
-    </div>
+                <div class="row" id="painterDetails">
+                </div>
+
+                <a href="#about" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About tsPainters</h2>
+                <p class="intro-text">edx Microsoft DEV201x: Introduction to TypeScript - Final project</p>
+                <p class="intro-text">Reads a JSON file containing information about painters and displays it.<br>
+                    Uses Typescript 1.4 with ES 5, AMD modules with require.js, jQuery and Bootstrap.</p>
+                <p class="intro-text">Bootstrap <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale</a> Theme Created by Start Bootstrap.</p>
+
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://github.com/vmlf01/tsPainters" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; vmlf01 2015</p>
+        </div>
+    </footer>
 
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/requirejs/require.js" data-main="scripts/app.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="scripts/3rdParty/grayscale.js"></script>
 </body>
 </html>

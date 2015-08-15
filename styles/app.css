@@ -1,32 +1,45 @@
-﻿body {
-    margin: 50px;
-    padding-top: 60px;
+﻿#painters {
+    width: 100%;
+    padding: 220px 50px;
+    background-color: #1D1D1D;
+/*
+    color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    */
 }
 
-.navbar
-{
-    background-color: gold;
+
+#about {
+    padding: 200px 0;
 }
 
-.navbar .h1
-{
-    padding-top: 30px;
-    color: oldlace;
-    font-weight: bold;
+.painter {
+    border-radius: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
-.navbar-fixed-top
-{
-    height: 100px;
-}
-
-#errorDisplay
-{
-    margin: 35px 50px;
-    padding: 10px;
-}
-
-.painter
-{
+.painter:hover,
+.painter:focus {
     cursor: pointer;
+}
+
+.painter:hover .painter-name,
+.painter:focus .painter-name,
+.painter-name:hover,
+.painter:focus .painter-name:focus {
+    color: #000;
+    background-color: #42dca3;
+}
+
+
+.painter-name {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16pt;
 }

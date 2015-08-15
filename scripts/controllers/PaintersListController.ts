@@ -42,7 +42,7 @@ class PaintersListController implements IPaintersListController {
                 var html = `
                     <div class="painter col-sm-6 col-md-3 col-lg-2">
                         <img class="img-responsive" src="` + p.image + `" />
-                        <h3>` + p.name + `</h3>
+                        <p class="painter-name">` + p.name + `</p>
                     </div>
                 `;
                 var painterDiv = $(html);
