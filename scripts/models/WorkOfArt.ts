@@ -2,7 +2,9 @@
  * Created by vmlf on 02-08-2015.
  */
 
-class WorkOfArt
+import IWorkOfArt = require('../interfaces/IWorkOfArt');
+
+class WorkOfArt implements IWorkOfArt
 {
     name: string;
     year: string;

@@ -2,29 +2,28 @@
  * Created by vmlf on 13-08-2015.
  */
 
-import PainterDetailsController = require('./PainterDetailsController');
+import IPainterDetailsController = require('../interfaces/IPainterDetailsController');
+import IPaintersListController = require('../interfaces/IPaintersListController');
+import IPainter = require('../interfaces/IPainter');
 import PaintersService = require('../services/PaintersDataService');
-import Painter = require('../models/Painter');
+import ErrorController = require('./ErrorController');
 
 declare var $;
 
-class PaintersListController {
+class PaintersListController implements IPaintersListController {
 
-    private painterDetails: PainterDetailsController;
-    private paintersService: PaintersService;
+    private painterDetails: IPainterDetailsController;
 
-    constructor() {
-        this.painterDetails = new PainterDetailsController();
-        this.paintersService = new PaintersService();
+    constructor(detailsController: IPainterDetailsController) {
+        this.painterDetails = detailsController;
     }
 
     showPainters(): void {
 
-        $("#errorDisplay").hide();
-        this.paintersService.getPainters((err, painters) => {
+        ErrorController.resetErrorDisplay();
+        PaintersService.getPainters((err, painters) => {
             if (err) {
-                $("#errorMessage").html(err);
-                $("#errorDisplay").show();
+                ErrorController.displayError(err);
             }
             else {
                 this.renderPainters($("#paintersList"), painters);
@@ -33,7 +32,7 @@ class PaintersListController {
 
     }
 
-    private renderPainters(container:HTMLElement, paintersList: Painter[]): void {
+    private renderPainters(container:HTMLElement, paintersList: IPainter[]): void {
         // clear previous container contents
         $(container).empty();
 

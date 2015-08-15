@@ -4,11 +4,11 @@
 
 declare var $;
 
-import Painter = require('../models/Painter');
+import IPainter = require('../interfaces/IPainter');
 import Config = require('../config/config');
 
 class PaintersDataService {
-    getPainters(cb) {
+    static getPainters(cb: (err: Error, data: IPainter[]) => void): void {
 
         $.ajax({
             url: Config.PAINTERS_ENDPOINT,
@@ -16,7 +16,7 @@ class PaintersDataService {
                 cb(null, data.famousPainters);
             },
             error: function(req, errType, ex) {
-                cb(new Error('An error occured getting the json file: ' + (ex || errType)));
+                cb(new Error('An error occured getting the json file: ' + (ex || errType)), null);
             }
         });
     }

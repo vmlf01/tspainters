@@ -3,9 +3,10 @@
  */
 
 import IPerson = require('../interfaces/IPerson');
+import IPainter = require('../interfaces/IPainter');
 import WorkOfArt = require('./WorkOfArt');
 
-class Painter implements IPerson
+class Painter implements IPainter
 {
     name: string;
     dateOfBirth: string;

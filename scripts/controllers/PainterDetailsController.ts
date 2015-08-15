@@ -2,12 +2,14 @@
  * Created by vmlf on 13-08-2015.
  */
 
-import Painter = require('../models/Painter');
+declare var $;
+
+import IPainter = require('../interfaces/IPainter');
 
 class PainterDetailsController {
 
-    showDetails(painter:Painter) {
-        alert('Painter details: ' + painter.name);
+    showDetails(painter: IPainter) {
+        $("#painterDetails").html(painter.name);
     }
 }
 
