@@ -1,0 +1,24 @@
+{
+  "name": "tsPainters",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vmlf01/tspainters",
+  "authors": [
+    "Vitor Fernandes <vmlf01@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "requirejs": "~2.1.20",
+    "jquery": "~2.1.4"
+  }
+}
