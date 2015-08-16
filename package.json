@@ -1,0 +1,24 @@
+{
+  "name": "tsPainters",
+  "version": "1.0.0",
+  "description": "edx Microsoft DEV201x: Introduction to TypeScript - Final project",
+  "main": "",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./node_modules/http-server/bin/http-server -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vmlf01/tspainters.git"
+  },
+  "author": "vmlf01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmlf01/tspainters/issues"
+  },
+  "homepage": "https://github.com/vmlf01/tspainters"
+}
