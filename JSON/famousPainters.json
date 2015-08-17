@@ -126,17 +126,32 @@
         },
         {
             "name": "Johannes Vermeer",
-            "style:": "Baroque",
+            "dateOfBirth": "31 October 1632",
+            "placeOfBirth": "Delft, Dutch Republic",
+            "nationality": "Dutch",
+            "style:": "Dutch Golden Age, Baroque",
             "image": "images/vermeer.jpg",
             "examples": [
               {
-                "name": "The Milkmaid"
+                "name": "The Milkmaid",
+                "image": "images/vermeer_milkmaid.jpg",
+                "year": "1657-58",
+                "type": "Oil on canvas",
+                "location": "Rijksmuseum, Amsterdam, Netherlands"
               },
               {
-                "name": "Girl with a Pearl Earring"
+                "name": "Girl with a Pearl Earring",
+                "image": "images/vermeer_pearl_earring.jpg",
+                "year": "1665",
+                "type": "Oil on canvas",
+                "location": "Mauritshuis, The Hague, Netherlands"
               },
               {
-                "name": "The Music Lesson"
+                "name": "The Music Lesson",
+                "image": "images/vermeer_music_lesson.jpg",
+                "year": "1662-65",
+                "type": "Oil on canvas",
+                "location": "Royal Collection, St. James's Palace, London"
               }
             ]
         }
