@@ -89,11 +89,21 @@ class PainterDetailsController {
         $("#painterDetails #back").click(() => {
             $("#painterDetails").hide();
             $("#paintersList").show();
+			
+			this.scrollPaintersIntoView();
         });
 
         $("#paintersList").hide();
         $("#painterDetails").show();
+
+		this.scrollPaintersIntoView();
     }
+	
+	private scrollPaintersIntoView() {
+        $('html, body').stop().animate({
+            scrollTop: $("#painters").offset().top
+        }, 500, 'easeInOutExpo');
+	}
 }
 
 export = PainterDetailsController;
