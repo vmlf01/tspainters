@@ -184,6 +184,31 @@
                 "location": "Museu Nacional de Arte Antiga, Lisbon"
               }
             ]
+		},
+		{
+			"name": "Maria Helena Vieira da Silva",
+            "dateOfBirth": "13 June 1908",
+            "placeOfBirth": "Lisbon, Portugal",
+            "nationality": "Portuguese",
+            "style:": "Abstractionism",
+            "image": "images/vieira-da-silva.jpg",
+			"wiki": "https://en.wikipedia.org/wiki/Maria_Helena_Vieira_da_Silva",
+            "examples": [
+              {
+                "name": "Paris",
+                "image": "images/vieira_silva_paris.jpg",
+                "year": "1951",
+                "type": "Oil on canvas",
+                "location": "Museo del Prado, Madrid"
+              },
+              {
+                "name": "Backdrop for \"La parodie\" by A. Adamov",
+                "image": "images/vieira_silva_parodie.jpg",
+                "year": "1952",
+                "type": "Gouache on canvas",
+                "location": "Fundação Arpad Szenes - Vieira da Silva, Lisbon"
+              }
+            ]		
 		}
 	]
 }
