@@ -1,18 +1,9 @@
 ﻿#painters {
     width: 100%;
-    padding: 220px 50px;
+    padding: 100px 50px;
+    padding-bottom: 350px;
     background-color: #1D1D1D;
-/*
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    */
 }
-
 
 #about {
     padding: 200px 0;
@@ -38,8 +29,19 @@
     background-color: #42dca3;
 }
 
-
 .painter-name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16pt;
+}
+
+.img-left {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    width: 100%; /* use this, or not */
+    margin: auto;
 }

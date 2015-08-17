@@ -10,23 +10,21 @@
 			"examples": [
               {
                 "name": "David",
-                "image": "michelangelo-david.jpg",
+                "image": "images/michelangelo_david.jpg",
                 "year": "1501-04",
                 "type": "Marble Statue",
                 "location": "Galleria dell'Accademia, Florence"
               },
               {
                 "name": "Sistine Chapel",
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CAPPELLA_SISTINA_Ceiling.jpg/1280px-CAPPELLA_SISTINA_Ceiling.jpg",
+                "image": "images/michelangelo_sistine_chapel.jpg",
                 "year": "1508-12",
                 "type": "Ceiling Painting",
                 "location": "Sistine Chapel, Vatican City"
               },
               {
-                "name": "Sistine Chapel"
-              },
-              {
-                "name": "The Last Judgement"
+                "name": "The Last Judgement",
+                "image": "images/michelangelo_last_judgement.jpg"
               }
             ]
 		},
@@ -36,13 +34,16 @@
             "image": "images/rafael.jpg",
             "examples": [
               {
-                "name": "School at Athens"
+                "name": "School at Athens",
+                "image": "images/raphael_school_athens.jpg"
               },
               {
-                "name": "Lucretia"
+                "name": "Lucretia",
+                "image": "images/raphael_lucretia.jpg"
               },
               {
-                "name": "Saint George and the Dragon"
+                "name": "Saint George and the Dragon",
+                "image": "images/raphael_george_dragon.jpg"
               }
             ]
         },
