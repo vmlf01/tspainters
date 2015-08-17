@@ -13,6 +13,7 @@ class PainterDetailsController {
             <div class="painter-details">
                 <div class="col-md-3 col-sm-12">
                     <img class="img-responsive img-left img-circle" src="` + painter.image + `"></img>
+					<a href="` + painter.wiki + `" target="_blank">see on Wikipedia <i class="fa fa-external-link"></i></a>
                 </div>
                 <div class="col-md-8 col-sm-12">
                     <!-- painter details -->

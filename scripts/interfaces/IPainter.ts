@@ -9,6 +9,7 @@ interface IPainter extends IPerson {
     style: string;
     examples: IWorkOfArt[];
     image: string;
+	wiki: string;
 }
 
 export = IPainter;
