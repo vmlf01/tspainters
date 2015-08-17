@@ -11,7 +11,7 @@ class WorkOfArt implements IWorkOfArt
     typeOfWork: string;
     location: string;
     description: string;
-    thumbnailUrl: string;
+    image: string;
 }
 
 export = WorkOfArt;
