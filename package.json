@@ -8,13 +8,14 @@
   },
   "dependencies": {
     "bower": "^1.4.1",
-    "http-server": "^0.8.0"
+    "http-server": "^0.8.0",
+    "typescript": "^1.5.3"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node ./node_modules/http-server/bin/http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install"
+    "postinstall": "node ./node_modules/typescript/bin/tsc --module amd ./scripts/app.ts && bower install"
   },
   "repository": {
     "type": "git",
