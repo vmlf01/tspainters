@@ -7,6 +7,7 @@
             "nationality": "Italian",
 			"style:": "High Renaissance",
             "image": "images/michaelangelo.jpg",
+			"wiki": "https://en.wikipedia.org/wiki/Michelangelo",
 			"examples": [
               {
                 "name": "David",
@@ -38,6 +39,7 @@
             "nationality": "Italian",
             "style:": "High Renaissance",
             "image": "images/rafael.jpg",
+			"wiki": "https://en.wikipedia.org/wiki/Raphael",
             "examples": [
               {
                 "name": "The School of Athens",
@@ -69,6 +71,7 @@
             "nationality": "Dutch",
             "style:": "Post-Impressionist",
             "image": "images/van-gogh.jpg",
+			"wiki": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
             "examples": [
               {
                 "name": "Self-portrait",
@@ -100,6 +103,7 @@
             "nationality": "French",
             "style:": "Impressionism",
             "image": "images/claude-monet.jpg",
+			"wiki": "https://en.wikipedia.org/wiki/Claude_Monet",
             "examples": [
               {
                 "name": "Morning on the Seine",
@@ -131,6 +135,7 @@
             "nationality": "Dutch",
             "style:": "Dutch Golden Age, Baroque",
             "image": "images/vermeer.jpg",
+			"wiki": "https://en.wikipedia.org/wiki/Johannes_Vermeer",
             "examples": [
               {
                 "name": "The Milkmaid",
@@ -154,6 +159,31 @@
                 "location": "Royal Collection, St. James's Palace, London"
               }
             ]
-        }
+        },
+		{
+			"name": "Hieronymus Bosch",
+            "dateOfBirth": "c. 1450",
+            "placeOfBirth": "'s-Hertogenbosch, Duchy of Brabant, Burgundian Netherlands",
+            "nationality": "Dutch",
+            "style:": "Early Netherlandish, Renaissance",
+            "image": "images/bosch.jpg",
+			"wiki": "https://en.wikipedia.org/wiki/Hieronymus_Bosch",
+            "examples": [
+              {
+                "name": "The Garden of Earthly Delights",
+                "image": "images/bosch_garden_delights.jpg",
+                "year": "1490-1510",
+                "type": "Oil on oak panels",
+                "location": "Museo del Prado, Madrid"
+              },
+              {
+                "name": "Triptych of the Temptation of St. Anthony",
+                "image": "images/bosch_temptation_st_anthony.jpg",
+                "year": "1501",
+                "type": "Oil on panel",
+                "location": "Museu Nacional de Arte Antiga, Lisbon"
+              }
+            ]
+		}
 	]
 }
