@@ -13,7 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node ./node_modules/http-server/bin/http-server",
+    "build": "node ./node_modules/typescript/bin/tsc --module amd ./scripts/app.ts",
+    "start": "node ./node_modules/http-server/bin/http-server -o",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node ./node_modules/typescript/bin/tsc --module amd ./scripts/app.ts && bower install"
   },
