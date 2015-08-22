@@ -1,6 +1,8 @@
 # tspainters
 edx Microsoft DEV201x: Introduction to TypeScript - Final project
 
+https://afternoon-wildwood-6054.herokuapp.com/
+
 Reads a JSON file containing information about painters and displays it.
 
 Uses Typescript 1.4 with ES 5, AMD modules with require.js, jQuery and Bootstrap.
